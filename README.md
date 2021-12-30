@@ -1,7 +1,7 @@
 # Padroes de projeto - APS
 Atividade Prática realizada para a Disciplina de Análise e Projeto de Software
 
-## Os arquivos usados como exemplo estão localizados na branch master
+## Os arquivos usados como exemplo estão localizados na branch atividade pratica
 
 #### Grupo:
 
