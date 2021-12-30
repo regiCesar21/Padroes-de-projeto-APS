@@ -1,6 +1,8 @@
 # Padroes de projeto - APS
 Atividade Prática realizada para a Disciplina de Análise e Projeto de Software
 
+## Os arquivos usados como exemplo estão localizados na branch master
+
 #### Grupo:
 
 #### Carlos Rogner de Oliveira Junior
