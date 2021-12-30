@@ -45,3 +45,12 @@ O Proxy tem como o seu objetivo principal é encapsular um objeto através de ou
 
 - A resposta do serviço pode demorar.
 - O código pode se tornar mais complicado, pois você precisa introduzir várias novas classes.
+
+
+# Explicação do Projeto prático
+
+Tanto o exemplo de Factory Method quanto Proxy Pattern foram pensados como sendo partes de sistemas maiores, e fictícios, claro.
+
+O exemplo de ProxyPattern foi pensado como a parte de consulta de clientes em um sistema bancário, Por isso na classe "Client" existe um "mock" de um resultado, já que não existe um base de dados realmente. Então a classe Client fica responsável por recuperar dados privados/sensíveis e a classe Proxy manipula e realiza operações com tais dados, vale salientar que outro uso pra a proxy, neste caso, seriam as operações de autenticação e validação num caso real.
+
+Já o Factory Method foi pensado como parte de um sistema de relatórios de uma empresa, mais especificamente nos canais de comunicação do cliente com a empresa, então existem as factories dos diferentes dos meios disponíveis (Celular, Email e Chatbot).o cenário idealizado foi o seguinte: A empresa precisa realizar dos relatórios para analizar o canal menos ultilizado pelos clientes e assim cogitar uma eliminação de tal canal, pelos factory eles podem obter tal informação.
